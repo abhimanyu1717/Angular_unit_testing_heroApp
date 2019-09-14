@@ -7,7 +7,7 @@ import { ComponentFixtureAutoDetect } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 import { MessagesComponent } from './messages/messages.component';
 
-fdescribe('AppComponent', () => {
+describe('AppComponent', () => { /* its called test suit */
   let fixture;
   let app;
 
@@ -30,7 +30,7 @@ fdescribe('AppComponent', () => {
   }));
 
 
-  it('should create the app', () => {
+  it('should create the app', () => { /*** its called test spec ****/
     expect(app).toBeTruthy();
   });
 
